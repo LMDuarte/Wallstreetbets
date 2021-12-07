@@ -72,13 +72,37 @@ When looking at the users vocabulary my goal was to identify if the way users sp
 ![image](https://user-images.githubusercontent.com/69866550/145123855-ca8231cd-6e22-43a5-a7bd-52ff3dacfe57.png)
 ![image](https://user-images.githubusercontent.com/69866550/145123859-7da5a2b1-7a2c-4b8b-91fc-f23afe3400d6.png)
 
+### Sentiment over time
+Using VADER and the afinn lexicon I was able to graph users’ sentiment towards GME across the years. Performing the analysis with VADER shows us that from 2019 to the end of 2020 the average sentiment towards GME was fairly positive. To put things into context , VADER assigns a score between -1 to 1, and our data shows that between 2019 and the end of 2020 the scores ranged from -0.056 to 0.712. Another thing to note is the two spikes that occurred on October 2019 (0.712000000) and August 2020 (0.245909091). 
 
+![image](https://user-images.githubusercontent.com/69866550/145123984-bd0ef4cb-2d89-46c4-b28c-1ce9ca512f77.png)
 
+```markdown
+Figure 7: VADER sentiment 2019 -2020
+```
+Despite the positive tone found in the comments before 2021, the comments from January 2021 display a different sentiment. When looking at the average sentiment scores you can see that they are barely positive. The posts have a more neutral sentiment with their scores ranging from -0.026 to 0.019. 
 
+![image](https://user-images.githubusercontent.com/69866550/145124043-d76801d5-4122-4338-917e-0ce3fd2f9886.png)
 
+```markdown
+Figure 8: VADER sentiment January 2021
+```
+I utilized the Afinn lexicon and VADER as a form of redundancy. When measuring the data from 2019 and 2020 using the Afinn lexicon, we can see similar patterns as the sentiment displayed with VADER. The data is mostly positive, with some negative spikes. The Afinn lexicon assigns a score between -5 and 5, and the 2019 and 2020 data has scores ranging from -1.85  to 2.00. We see a score of 2.00 in multiple dates; April 2019, October 2019, July 2020 & August 2020. In contrast, we see a score of -1.85 on September 2019.
 
+![image](https://user-images.githubusercontent.com/69866550/145124121-e237f004-01dd-452a-bdd1-b57d2300557b.png)
 
+```markdown
+Figure 9: Afinn sentiment 2019 - 2021
+```
+Using the Afinn lexicon, it is apparent that the sentiment from January 2021 is neutral. Compared to the 2019 and 2020 data, the sentiment displayed at the beginning of 2021 has an average score of 0.002. The data shows a positive spike on January 9th 2021 with a score of 1.067 and a negative spike on January 28th 2021 with a score of -0.225.  
 
+![image](https://user-images.githubusercontent.com/69866550/145124179-060d5d05-f5cc-4397-8c40-ce03745222bb.png)
+```markdown
+Figure 10: Afinn sentiment January 2021
+```
+# Discussion
+## Price and Mentions
+When looking at the number of mentions and the price of GME, we can see that the two mirror each other. When graphing the two side by side, we see that both the price and mentions increase at a similar rate. As soon as we graph the 2020 data, we start to observe similar spikes between the two graphs. Both the price of GME and the number of mentions in r/wallstreetbets see a spike after August 2020. Now, the most important comparison comes 
 
 
 
