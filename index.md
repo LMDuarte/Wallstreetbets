@@ -48,19 +48,41 @@ Looking at the price of Game Stop stock by year, we can see a steady decline in 
 ![image](https://user-images.githubusercontent.com/69866550/145123537-f0c5c161-fd23-457c-b886-e05c64a1a1ab.png)
 
 ```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+Figure 1: Price of GME as of January 31, 2021
 ```
+## GME Mentions
+Game Stop stock has been a topic of conversation in the subreddit r/wallstreetbets all the way back to 2019. However, the number of mentions in 2019 to 2020 have been minimal compared to the number of mentions in 2021. Back in 2019 the highest number of monthly posts discussing “GME” were around 20, it is still notable that people had some interest in the status of GME back then. It is not until the end of 2020 that we see an increase in GME mentions. On November 2020 there were a total of 573 posts mentioning GME. Later on we see a dramatic increase at the beginning of 2021. In total there were 73,786 posts mentioning GME on January 2021. The majority of these comments were posted on January 28th (a day before the price spike) with 22,502 posts. 
+
+![image](https://user-images.githubusercontent.com/69866550/145123665-683a9bd8-02f9-46f9-b5e9-416f9fa45211.png)
+```markdown
+Figure 2: Number of comments mentioning GME: 2019-2021
+```
+
+![image](https://user-images.githubusercontent.com/69866550/145123708-443d3e39-a3c6-414e-aebd-82c4db5b2ee5.png)
+```markdown
+Figure 3: Number of comments mentioning GME: January 2021
+```
+## Sentiment Analysis
+For the sentiment analysis I utilize three different tools; VADER, Bing lexicon, and Afinn lexicon. Both the afinn lexicon and VADER were used to graph the users sentiment towards GME across time. While the Bing lexicon allowed me to separate the most negative and positive words used by the commentors.
+
+### Top Woeds
+When looking at the users vocabulary my goal was to identify if the way users spoke about GME changed across the years. However, what my visualization ends up showcasing is the users general vocabulary. I do want to be upfront and explain that the language used by the commentors is fairly inappropriate. However, I believe it should be mention and included in this report, since it can be used to understand the kind of people discussing GME. In 2019 the vocabulary was fairly concentrated on terms related to the stock price. Words like “death” and “fail” are used by the commentors to describe the status of GME at the time. Moving up to 2020 we see that the top negative words used are “retards” and “fucking”, both immature and aggressive language. The type of language used does not change for 2021. The data shows that the top two words used in January of 2021 is “fucking” and “fuck”. Instead of reflecting their opinion towards GME it showcases the juvenile and carefree attitude of the users.  
+
+![image](https://user-images.githubusercontent.com/69866550/145123846-b82a3ce4-94bc-4471-b547-5b2a15a8fade.png)
+![image](https://user-images.githubusercontent.com/69866550/145123855-ca8231cd-6e22-43a5-a7bd-52ff3dacfe57.png)
+![image](https://user-images.githubusercontent.com/69866550/145123859-7da5a2b1-7a2c-4b8b-91fc-f23afe3400d6.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
