@@ -29,7 +29,24 @@ lexicon, afinn, was needed to get a more in-depth look into the average sentimen
 
 ## Data Collection
 
-### 
+### Posts
+For this analysis, I needed to find a method that would allow me to extract Reddit data from a specific window of time. Common data extraction methods, both in R and python, only collected the most recent posts under a subreddit. It used to be possible to extract Reddit data through python using PRAW (Python Reddit API Wrapper). However, recent changes made by Reddit have disrupted PRAW's ability to extract specific data. A solution to PRAW's limitation came from pushift.io Reddit API [1]. Pushift.io was designed and created by the r/datasets subreddit to enhance search capabilities for Reddit's posts and comments.
+
+Using upshift.io, I extracted posts from r/walstreetbets mentioning GME between January 2019 and January 31st, 2020. In that timeframe, there was a total of 73,786 posts mentioning GME. In 2019 there were 105 posts, 2020 had 1,274 posts, and January 2021 had 73,786 posts. There was a large amount of data, and the code could only extract around 1,000 posts; therefore, I needed to run the code 22 times.
+
+### Stock Data
+In addition to Reddit posts, I needed to extract the price of Game Stop stock from January 2019 to January 2020. Using R, I extracted and visualized the stock price across time. The visualization of the stock price will serve to contextualize the rest of the analysis.
+
+# Results
+
+## Scale
+When looking at the data I have decided to separate it based on the year. Due to the drastic increase in price that GME saw at the beginning of 2021, any visualization or analysis would not accurately reflect the events of 2019 and 2020, if it also included data from January 2021.
+
+## Price
+Looking at the price of Game Stop stock by year, we can see a steady decline in price, followed by dramatic increase at the beginning of 2021. At the beginning of 2019 the Game Stop stock price was valued at $15.24, however it saw a steady decrease culminating in a price of $5.88. The price then saw an organic growth during the year resulting in a price of $18.84. However, on January 29th 2021, the stock price for game stop saw a sudden spike resulting in a stock price of $325.00.
+
+![image](https://user-images.githubusercontent.com/69866550/145123537-f0c5c161-fd23-457c-b886-e05c64a1a1ab.png)
+
 ```markdown
 Syntax highlighted code block
 
