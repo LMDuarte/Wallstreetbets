@@ -1,12 +1,12 @@
-## Welcome to GitHub Pages
+# Introduction
 
-You can use the [editor on GitHub](https://github.com/LMDuarte/Wallstreetbets/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+In recent years, social media has continued to show the transformative and destructive power it has. Platforms such as Twitter, Facebook, and Reddit have allowed people to unionize and impact major institutions. From its effects on politics, public health, and the stock market, social media platforms have shown to be powerful “tools”.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Among all these “tools” Reddit differs with their enfaces in community. Their subreddit feature allows people to collaborate with others in very specific ways. There is a common belief that you could find a subreddit for any kind of community. For this particular analysis, the community or subreddit of interest is r/wallstreetbets.
 
-### Markdown
+Wallstreetbets is a subreddit where people discuss anything related to the stock market with an enfaces on high-risk trades. People share their portfolios, predictions, gains, and losses. The emphasis on wallstreetbets is mainly due to its role in the sudden price change of Game Stop stock (GME). Earlier this year, active users in r/wallstreetbets performed a coordinated purchase of undervalued stocks [2,4,6]. Game Stop stock (GME) received a particular interest among these Reddit users, which caused its stock price to skyrocket in less than a couple of days.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+At the beginning of the year, when the price of GME reached its peak, there were a lot of questions surrounding wallstreetbets. Many questioned the legality of the users' tactics, some wondered if the internet would change the stock market's operation, and others were curious
 
 ```markdown
 Syntax highlighted code block
