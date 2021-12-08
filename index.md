@@ -102,11 +102,63 @@ Figure 10: Afinn sentiment January 2021
 ```
 # Discussion
 ## Price and Mentions
-When looking at the number of mentions and the price of GME, we can see that the two mirror each other. When graphing the two side by side, we see that both the price and mentions increase at a similar rate. As soon as we graph the 2020 data, we start to observe similar spikes between the two graphs. Both the price of GME and the number of mentions in r/wallstreetbets see a spike after August 2020. Now, the most important comparison comes 
+When looking at the number of mentions and the price of GME, we can see that the two mirror each other. When graphing the two side by side, we see that both the price and mentions increase at a similar rate. As soon as we graph the 2020 data, we start to observe similar spikes between the two graphs. Both the price of GME and the number of mentions in r/wallstreetbets see a spike after August 2020. Now, the most important comparison comes when looking at the data from January 2021. 
+
+![image](https://user-images.githubusercontent.com/69866550/145124550-1067bd5c-031d-4a56-a46a-3946366bf674.png)
+![image](https://user-images.githubusercontent.com/69866550/145124561-ab14ffdf-906a-4b85-b1af-21c433f60e52.png)
+```markdown
+Figure 11: Number of posts & Stock Price: before the spike
+```
+The argument could be made that the two graphs have similar patterns due to the r/wallstreetbets users discussing the current state of GME. However, the data shows the spike in posts discussing GME occurring on January 28th, 2021, while the spike in price occurred a day after on the 29th. This led me to infer that the number of posts discussing a specific stock could indicate a change in the stock price. Further research needs to be done to understand if this is an isolated incident. 
 
 
+![image](https://user-images.githubusercontent.com/69866550/145124686-4bb3e5a9-9a06-49a8-9200-0a2e6b457601.png)
+![image](https://user-images.githubusercontent.com/69866550/145124694-ef1aaa85-2905-41b6-bf89-d4f7cc1b31a1.png)
+```markdown
+Figure 12: Number of posts & Stock Price: January 2021
+```
+### Personality of Users
+Reddit users have a reputation for being juvenile and aggressive; the data collected in this study backs this notion. When looking at the vocabulary used by the members of r/wallstreetbets, we can see that they show unprofessional and aggressive behavior. They call themselves "retards” as an ironic term and use profanity in their posts. The use of language highlights a lack of professionalism. More passion and aggressiveness are going into their decisions to invest in the stock rather than strategy. A comment reads, "I HAVE NO IDEA WHAT THE F*CK I'M DOING BUT I NEED ALL OF YOU TO HOP ON THIS GME… ROCKET WITH ME." Regardless of their juvenile behavior, there is no question their actions and passion had real consequences. There is a level of concern that people with such aggressive attitudes manage to cost short sellers $19.75 billion [8]. 
+
+A different interpretation of the vocabulary choice of these individuals is that we are observing an unfiltered community. The members of r/wallstreetbets do not have any responsibility to mince their words. There is no expectation that they would behave or communicate with any form of professionalism since they are not writing in a professional forum. They are adults who communicate as they please. However, I will still stand with my position that their choice of language does speak to their character. 
+
+Lastly, it should also be mentioned that the choice of words could come from a place of frustration. Buying and holding GME stock was also a form of rebellion in its own right. Users expressed frustration with the tactics that other more affluent traders can take part in. Another post reads, "We must HOLD AMC AND GME OUT OF PURE SPITE FOR …[the]… RICH" Users are definitively juvenile; however, at the same time, they are adults frustrated with the current economic system. A user says, "Wallstreet inside video tells you how Hedge Fund managers …are manipulating the market … and all this to steal from the US".
+
+### Sentiment Over Time
+A purpose of this analysis was to explore the connection between sentiment and the price of GME over time. This was attempted by utilizing VADER and the afinn lexicon. After performing the sentiment analysis and visualizing the sentiment over time, I couldn't identify any overly apparent trend in the data. However, there were still some patterns that needed to be addressed. 
+
+One of the most perplexing results from this sentiment analysis was the apathy being expressed in the subreddit. The average sentiment in January of 2021 calculated with the afinn lexicon was 0.002 out of a potential negative or positive five. Similarly, with VADER, the average sentiment was 0.011 out of a potential positive or negative one. Both methods resulted in an average neutral sentiment when it would be expected to see the excitement over the sudden price change. It could be said that the methods implemented to perform the analysis result in an overall neutral sentiment. However, when looking at the 2020 and 2019 data, positive and negative sentiment is still being captured with these methods. Using the afinn lexicon, we see multiple months in which the average sentiment reached a two out of five. Similarly, when looking at the sentiment analysis performed with VADER, we see a spike where the sentiment is 0.712 out of a possible positive and negative one.  
+
+Although initially, it may seem strange that the average sentiment in January of 2021 is overall neutral, the reality is that users were expressing themselves in both positive and negative ways. Graphing the sentiment of each post, we can see that there is an apparent equal number of positive and negative posts, canceling each other out. The spike in price resulted in strong emotions from people against or in favor of GME. A post with a VADER score of (-0.973) reads, "So Today I got f**ed from my Short position on GME. Actual Realized loss is -$19,000 for fees and sh*t not taken out yet". In contrast, another post with a VADER score of (0.981) reads, "GME TO THE MOON!!!! WE ARE STRONGER THAN THEY THINK!! DIAMOND HAND." Additionally, the methods implemented in this analysis were incapable of measuring aggressive support towards GME, skewing the data towards a more negative average. For example, a post supporting GME that still received a VADER score of (-0.983) reads, "I HAVE NO IDEA WHAT THE F**K I'M DOING BUT I NEED ALL OF YOU TO HOP ON THIS GME … ROCKET WITH ME…"
 
 
+![image](https://user-images.githubusercontent.com/69866550/145124844-86117568-a738-4eea-9a08-9ee070f75c79.png)
+```markdown
+Figure 13: VADER sentiment per post: January 31st
+```
+### Limitations VADER
+Despite VADER having the benefit of being designed specifically to analyze sentiment shared in social media, it still had limitations. The tool takes complete sentences and considers the context when performing the analysis. Due to this approach and the large amount of data collected for this analysis, it took a considerable amount of time to complete the sentiment analysis. The data needed to be divided into parts and analyzed separately; this wasn't the case for this report's other methods. Although it is specifically designed for social media, different approaches deliver similar results. However, the ability to grade entire posts is exclusive to VADER, and it allows for a more in-depth analysis of the data. We can identify specific examples and come to conclusions based on posts and not language. VADER is still a valuable tool that should be implemented in the future. 
+
+### Closing
+The data collected for this analysis can serve as an insight into the sudden rise in price for the Game Stop stock. The data consists of the stock price change, the number of posts mentioning the stock, the language being used when discussing the stock, and the sentiment of the posts mentioning the stock. 
+
+Although the initial purpose of the sentiment analysis was to identify any pattern between sentiment and stock price, the analysis served better to understand the emotional state of the Reddit users. By looking at the language being used by members of wallstreetbets, we can infer that they are a group of aggressive, passionate, but juvenile individuals. Based on the sentiment analysis, it is visible that there were people both in favor and against the GME movement at the beginning of the year. 
+
+Finally, one of the potential indicators for stock price change could be the number of times a stock is mentioned on wallstreetbets. Further research is needed to establish a connection between the number of posts and the price change. For this specific example, there was a sudden spike in comments a day before the spike in price. Regardless of whether the comments were positive or negative, the emphasis on a single stock could indicate a change in the stock price. Others should apply a similar methodology implemented in this analysis to different stocks discussed in r/wallstreetbets.
+
+# Bibliography
+```markdown
+[1] Baumgartner, J. M. (2019). Pushshift Reddit API Documentation. Retrieved from: https://github.com/pushshift/api
+[2] Chohan, U. W. (2021). Counter-hegemonic finance: The gamestop short squeeze. Available at SSRN.
+[3] Game Stop (2021). Form 10-K. Retrieved from: https://www.sec.gov/ix?doc=/Archives/edgar/data/1326380/000132638021000032/gme-20210130.htm#i3ad65c8584a445ee94e4314f67ce616c_13
+[4] Gozuacik, N., Sakar, C. O., & Ozcan, S. (2021). Social Media-Based Opinion Retrieval for Product Analysis Using Multi-Task Deep Neural Networks. Expert Systems with Applications, 115388. 
+[5] Hasso, T., Müller, D., Pelster, M., & Warkulat, S. (2021). Who participated in the GameStop frenzy? Evidence from brokerage accounts. Finance Research Letters, 102140. 
+[6] Hutto, C. J. (2021) VADER – Sentiment -Analysis. Retrieved from: https://github.com/cjhutto/vaderSentiment
+[7] Umar, Z., Yousaf, I., & Zaremba, A. (2021). Comovements between Heavily Shorted Stocks during a Market Squeeze: Lessons from the GameStop Trading Frenzy. Research in International Business and Finance, 101453. 
+[8] Wallstreetbets (2021) The WSB FAQ. Retrieved from: https://www.reddit.com/r/wallstreetbets/wiki/faq#wiki_the_wsb_faq
+[9] Wieczner, J (2021) Hedge funds and other short-sellers have lost an astounding amount betting against Game Stop. Retrieved from: https://fortune.com/2021/01/29/gamestop-stock-how-much-hedge-funds-have-lost-sellers-losses-gme-steve-cohen-point72-andrew-left-citron-research-short-squeeze/
+[10] Wołk, K. (2020). Advanced social media sentiment analysis for short‐term cryptocurrency price prediction. Expert Systems, 37(2), e12493. https://github.com/cjhutto/vaderSentiment
+```
 
 
 
