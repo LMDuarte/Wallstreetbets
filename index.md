@@ -151,13 +151,13 @@ Finally, one of the potential indicators for stock price change could be the num
 [1] Baumgartner, J. M. (2019). Pushshift Reddit API Documentation. Retrieved from: https://github.com/pushshift/api
 [2] Chohan, U. W. (2021). Counter-hegemonic finance: The gamestop short squeeze. Available at SSRN.
 [3] Game Stop (2021). Form 10-K. Retrieved from: https://www.sec.gov/ix?doc=/Archives/edgar/data/1326380/000132638021000032/gme-20210130.htm#i3ad65c8584a445ee94e4314f67ce616c_13
-[4] Gozuacik, N., Sakar, C. O., & Ozcan, S. (2021). Social Media-Based Opinion Retrieval for Product Analysis Using Multi-Task Deep Neural Networks. Expert Systems with Applications, 115388. 
-[5] Hasso, T., Müller, D., Pelster, M., & Warkulat, S. (2021). Who participated in the GameStop frenzy? Evidence from brokerage accounts. Finance Research Letters, 102140. 
-[6] Hutto, C. J. (2021) VADER – Sentiment -Analysis. Retrieved from: https://github.com/cjhutto/vaderSentiment
-[7] Umar, Z., Yousaf, I., & Zaremba, A. (2021). Comovements between Heavily Shorted Stocks during a Market Squeeze: Lessons from the GameStop Trading Frenzy. Research in International Business and Finance, 101453. 
-[8] Wallstreetbets (2021) The WSB FAQ. Retrieved from: https://www.reddit.com/r/wallstreetbets/wiki/faq#wiki_the_wsb_faq
-[9] Wieczner, J (2021) Hedge funds and other short-sellers have lost an astounding amount betting against Game Stop. Retrieved from: https://fortune.com/2021/01/29/gamestop-stock-how-much-hedge-funds-have-lost-sellers-losses-gme-steve-cohen-point72-andrew-left-citron-research-short-squeeze/
-[10] Wołk, K. (2020). Advanced social media sentiment analysis for short‐term cryptocurrency price prediction. Expert Systems, 37(2), e12493. https://github.com/cjhutto/vaderSentiment
+[4] Hasso, T., Müller, D., Pelster, M., & Warkulat, S. (2021). Who participated in the GameStop frenzy? Evidence from brokerage accounts. Finance Research Letters, 102140. 
+[5] Hutto, C. J. (2021) VADER – Sentiment -Analysis. Retrieved from: https://github.com/cjhutto/vaderSentiment
+[6] Umar, Z., Yousaf, I., & Zaremba, A. (2021). Comovements between Heavily Shorted Stocks during a Market Squeeze: Lessons from the GameStop Trading Frenzy. Research in International Business and Finance, 101453. 
+[7] Wallstreetbets (2021) The WSB FAQ. Retrieved from: https://www.reddit.com/r/wallstreetbets/wiki/faq#wiki_the_wsb_faq
+[8] Wieczner, J (2021) Hedge funds and other short-sellers have lost an astounding amount betting against Game Stop. Retrieved from: https://fortune.com/2021/01/29/gamestop-stock-how-much-hedge-funds-have-lost-sellers-losses-gme-steve-cohen-point72-andrew-left-citron-research-short-squeeze/
+[9] Wołk, K. (2020). Advanced social media sentiment analysis for short‐term cryptocurrency price prediction. Expert Systems, 37(2), e12493. https://github.com/cjhutto/vaderSentiment
+
 ```
 
 
